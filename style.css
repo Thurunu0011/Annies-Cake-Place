@@ -187,7 +187,7 @@
     width: 100%;
     height: 60vh;
     display: flex;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(255, 255, 255, 0.6)), url(./image/banner2.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(255, 255, 255, 0.6)), url(image/banner2.png);
     background-size: cover;
     align-items: center;
     justify-content: center;
