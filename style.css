@@ -288,6 +288,7 @@
     box-shadow: none;
 }
 #product-cards h3{
+    font-size:21px;
     color: white;
     text-shadow: 1px 1px 1px black;
 }
