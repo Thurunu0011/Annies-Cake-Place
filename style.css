@@ -254,6 +254,7 @@
     box-shadow: 0 0 3px black;
     border-radius: 5px;
     cursor: pointer;
+    max-width: 300px
 }
 .overlay{
     display: block;
