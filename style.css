@@ -250,12 +250,10 @@
     border-bottom: 2px solid rgba(161,109,14,1);
 }
 #product-cards .card{
-    background-color: #808080;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 0 3px black;
     border-radius: 5px;
     cursor: pointer;
-    max-width: 300px;
-    max-height: 50px;
 }
 .overlay{
     display: block;
