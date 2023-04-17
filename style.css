@@ -177,6 +177,9 @@
     margin-top: 10px;
     transition: 0.5s ease;
     cursor: pointer;
+    width:620px;
+    height: 520px;
+    
 }
 #box .card:hover{
     transform: translateY(-10px);
