@@ -36,13 +36,13 @@
     margin-left: 15px;
     transition: 0.5s ease;
 }
-.nav-link:hover{
+/* .nav-link:hover{
     background-color: rgba(161,109,14,1);
     color: white;
     border-radius: 5px;
     width : 10px;
 } 
-
+ */
 
 #collapsibleNavbar ul li.nav-item .dropdown {
   position: relative;
@@ -129,13 +129,13 @@
     animation: changetext 10s infinite linear;
     font-weight: bold;
 }
-@keyframes changetext{
+/* @keyframes changetext{
     0%{content: "Birthday cake";}
     20%{content: "Chocolate cake";}
     50%{content: "Party cake";}
     60%{content: "Slice cake";}
     100%{content: "Cup cake";}
-}
+} */
 .content p{
     color: white;
     font-weight: bold;
