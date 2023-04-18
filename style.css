@@ -173,6 +173,7 @@
         top:75px;
         right:0;
         z-index:2;
+        display:block;
     }
 }
 /* home section end */
