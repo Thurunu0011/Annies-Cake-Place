@@ -36,13 +36,9 @@
     margin-left: 15px;
     transition: 0.5s ease;
 }
-/* .nav-link:hover{
-    background-color: rgba(161,109,14,1);
-    color: white;
-    border-radius: 5px;
-    width : 10px;
-} 
- */
+nav ul li:hover{
+    border-bottom: 2px soild #fff;
+}
 
 #collapsibleNavbar ul li.nav-item .dropdown {
   position: relative;
