@@ -166,6 +166,15 @@
         font-size: 30px;
     }
 }
+@media only screen and (max-width:700px){
+    nav ul{
+        width:100%;
+        position:absolute;
+        top:75px;
+        right:0;
+        z-index:2;
+    }
+}
 /* home section end */
 
 /* top cards */
