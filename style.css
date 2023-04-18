@@ -47,7 +47,7 @@
 
 #collapsibleNavbar ul li.nav-item .dropdown ul {
   position: absolute;
-  display: none;
+  display: block;
 }
 #collapsibleNavbar ul li.nav-item .dropdown li a {
   border-color: darkgray;
