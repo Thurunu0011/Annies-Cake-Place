@@ -7,6 +7,9 @@
 .all-content{
     background: #000000;
 }
+.collapse{
+    display: block;
+}
 /* navbar */
 #navbar {
     position: fixed;
