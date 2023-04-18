@@ -39,6 +39,18 @@
 nav ul li:hover{
     border-bottom: 2px soild #fff;
 }
+nav ul li{
+    display: inline-block;
+}
+nav ul li:hover{
+    border-bottom: 2px solid #fff;
+}
+nav ul li a{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    transition: 0.1s ease-out;
+}
 
 #collapsibleNavbar ul li.nav-item .dropdown {
   position: relative;
