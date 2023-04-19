@@ -39,3 +39,37 @@
 nav ul li:hover{
     border-bottom: 2px soild #fff;
 }
+nav ul li{
+    display: inline-block;
+}
+nav ul li:hover{
+    border-bottom: 2px solid #fff;
+}
+nav ul li a{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    transition: 0.1s ease-out;
+}
+
+#collapsibleNavbar ul li.nav-item .dropdown {
+  position: relative;
+  padding: 0;
+}
+
+#collapsibleNavbar ul li.nav-item .dropdown ul {
+  position: absolute;
+  display: block;
+}
+#collapsibleNavbar ul li.nav-item .dropdown li a {
+  border-color: darkgray;
+}
+
+#collapsibleNavbar ul li.nav-item .dropdown:hover > ul {
+  position: absolute;
+  display: block;
+  text-decoration: none;
+  z-index: 5;
+  padding: 5px 0px;
+  left: -30%;
+}
