@@ -91,6 +91,10 @@
         z-index:2;
         display:block;
     }
+@media only screen and (max-width:560px){
+#navbar{
+    position:relative;
+    }
 }
 /* home section end */
 *{
@@ -109,7 +113,7 @@
 #navbar {
     position: fixed;
     width: 100%;
-    z-index: 5;
+    z-index: 1;
     background-color: #0000;
     padding-left: 60px;
     font-weight: bold;
