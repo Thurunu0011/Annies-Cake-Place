@@ -96,7 +96,7 @@ nav ul li a{
 }
 /* navbar end */
 /* home section */
-.home{
+/* .home{
     width: 100%;
     height: 88.5vh;
     display: flex;
@@ -107,7 +107,7 @@ nav ul li a{
     flex-wrap: wrap;
     position: relative;
     z-index: 0;
-}
+} */
 
 .home .img{
     flex: 1 1 400px;
