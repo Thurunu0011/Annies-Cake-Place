@@ -1,1 +1,41 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Uchen', serif;
+}
+.all-content{
+    background: #ffffff;
+}
+.collapse{
+    display: block;
+}
+/* navbar */
+#navbar {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    background-color: #0000;
+    padding-left: 60px;
+    font-weight: bold;
+}
+#logo{
+    font-size: 23px;
+    color: #ff9900;
+}
+#logo img{
+    margin-bottom: 15px;
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 15px;
+    transition: 0.5s ease;
+}
+nav ul li:hover{
+    border-bottom: 2px soild #fff;
+}
