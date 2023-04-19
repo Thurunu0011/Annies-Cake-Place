@@ -107,9 +107,9 @@
 }
 /* navbar */
 #navbar {
-    position: relative;
+    position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 5;
     background-color: #0000;
     padding-left: 60px;
     font-weight: bold;
