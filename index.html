@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Annie's Cake Place</title>
-    <link rel="shortcut icon" type="image" href="images/Logo.png">
+    <link rel="shortcut icon" type="image" href="../Annie's Cake Place/images/Logo.png">
     <link rel="stylesheet" href="style.css">
 
  
@@ -23,21 +23,18 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
  
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="floating-wpp.js"></script>
+    <script type="text/javascript" src="../Annie's Cake Place/"></script>
+    <link rel="stylesheet" href="../Annie's Cake Place/style.css">
+    <script type="text/javascript" src="../Annie's Cake Place/floating-wpp.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif
-        }
-        .image-resize {
-            height:380px;
-            object-fit:cover;
-            object-position: center center;
         }
     </style>
 
@@ -46,7 +43,9 @@
     <div class="all-content"  id="home">
    
         <nav class="navbar navbar-expand-md" id="navbar">
-            <a class="navbar-brand" href="#" id="logo">Annie's Cake Place</a>
+         
+            <a class="navbar-brand" href="#" id="logo"><img src="../Annie's Cake Place/images/Logo.png" alt="" width="50px">Annie's Cake Place</a>
+          
        
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             </button>
@@ -56,12 +55,16 @@
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link" href="#home">Home</a>
+                </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#gallary">Gallery</a>
+                  <a class="nav-link" href="#gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -77,30 +80,44 @@
                     <br>Cakes Bakery
                 </h3>
                 <h2>Category <span class="changecontent"></span></h2>
+                <p>Custom made cakes for all Occasions , Weddings
+                    <br>Engagements , Birthdays , Christenings , Farewells
+                </p>
+            </div>
+            <div class="img"  data-aos="zoom-out-left">
+                <img src="../Annie's Cake Place/images/background.png" alt="">
             </div>
         </div>
-
-
 
       <div class="container" id="box"    data-aos="fade-up"
       data-aos-duration="1500">
         <div class="row">
             <div class="col-md-4 py-3 py-md-0">
                 <div class="card">
-                     <img src="images/MotherMaryBirthdayCake.jpg" alt="">
+                    <img src="../Annie's Cake Place/images/box1.jpg" alt="">
                 </div>
             </div>
             <div class="col-md-4 py-3 py-md-0">
                 <div class="card">
-                     <img src="images/SimpleBirthdayCake.jpg" alt="">
+                    <img src="../Annie's Cake Place/images/box2.jpg" alt="">
                 </div>
             </div>
             <div class="col-md-4 py-3 py-md-0">
                 <div class="card">
-                    <img src="images/SimpleBlueFloralBirthdayCake.jpg" alt="">
+                    <img src="../Annie's Cake Place/images/box3.jpg" alt="">
                 </div>
             </div>
         </div>
+      </div>
+
+        <div class="banner"    data-aos="fade-up"
+        data-aos-duration="1500">
+            <div class="content">
+                <h3>Delicious Cake</h3>
+            </div>
+            <div class="img">
+                <img src="../Annie's Cake Place/images/banner-background.png" alt="">
+            </div>
         </div>
 
       <section id="product-cards"    data-aos="fade-up"
@@ -110,33 +127,89 @@
             <div class="row" style="margin-top:50px;">
                <div class="col-md-3 py-3 py-md-0">
                 <div class="card">
-                     <img src="images/ChristeningCake.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
+                    </div>
+                    <img src="../Annie's Cake Place/images/c1.png" alt="">
                     <div class="card-body">
-                        <h3>Christening Cake</h3>
+                        <h3>Cream Cake</h3>
+                        <div class="star">
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star "></i>
+                          <i class="bx bxs-star "></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <h6>$50.10</h6>
                     </div>
                 </div>
                </div>
                <div class="col-md-3 py-3 py-md-0">
                 <div class="card">
-                    <img src="images/CuteAnniversaryCake.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
+                    </div>
+                    <img src="../Annie's Cake Place/images/c2.png" alt="">
                     <div class="card-body">
-                        <h3>Cute Anniversary Cake</h3>
+                        <h3>Choco Cake</h3>
+                        <div class="star">
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star "></i>
+                          <i class="bx bxs-star "></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <h6>$60.5</h6>
                     </div>
                 </div>
                </div>
                <div class="col-md-3 py-3 py-md-0">
                 <div class="card">
-                     <img src="images/EdiblePrintBirthdayCake.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
+                    </div>
+                    <img src="../Annie's Cake Place/images/c3.png" alt="">
                     <div class="card-body">
-                        <h3>Edible Print Birthday Cake</h3>
+                        <h3>Slice Cake</h3>
+                        <div class="star">
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star "></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <h6>$100.10</h6>
                     </div>
                 </div>
                </div>
                <div class="col-md-3 py-3 py-md-0">
                 <div class="card">
-                    <img src="images/Number4RacetrackBirthdayCake.jpg" alt="">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
+                    </div>
+                    <img src="../Annie's Cake Place/images/c4.png" alt="">
                     <div class="card-body">
-                        <h3>Number 4 Racetrack Birthday Cake</h3>
+                        <h3>Fruit Cake</h3>
+                        <div class="star">
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star checked"></i>
+                          <i class="bx bxs-star checked"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <h6>$30.20</h6>
                     </div>
                 </div>
                </div>
@@ -151,36 +224,89 @@
             data-aos-duration="1500">
                 <div class="col-md-3 py-3 py-md-0">
                  <div class="card">
-                     <img src="images/PastelcolourHeartBirthdayCake.jpg" alt="">
-                     <div class="card-body">
-                         <h3>Pastel colour Heart Birthday Cake</h3>
-<!--                          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                         <h6>$10.5 </h6> -->
+                     <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
                      </div>
-                 </div>
-                </div>
-                <div class="col-md-3 py-3 py-md-0">
-                 <div class="card">
-                     <img src="images/RapunzelBirthdayCake.jpg" alt="">
+                     <img src="../Annie's Cake Place/images/c5.png" alt="">
                      <div class="card-body">
-                         <h3>Rapunzel Birthday Cake</h3>
-                     </div>
-                 </div>
-                </div>
-                <div class="col-md-3 py-3 py-md-0">
-                 <div class="card">
-                     <img src="images/SquareAnniversaryCake.jpg" alt="">
-                     <div class="card-body">
-                         <h3>Square Anniversary Cake</h3>
-                     </div>
-                 </div>
-                </div>
-                <div class="col-md-3 py-3 py-md-0">
-                 <div class="card">
-                     <img src="images/TwotierButtercreamWeddingCake.jpg" alt="">
-                     <div class="card-body">
-                         <h3>Two-tier Buttercream Wedding Cake</h3>
+                         <h3>Brown Cake</h3>
                          <div class="star">
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star "></i>
+                           <i class="bx bxs-star "></i>
+                         </div>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                         <h6>$10.5</h6>
+                     </div>
+                 </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                 <div class="card">
+                     <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
+                     </div>
+                     <img src="../Annie's Cake Place/images/c6.png" alt="">
+                     <div class="card-body">
+                         <h3>Slice Cake</h3>
+                         <div class="star">
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star "></i>
+                           <i class="bx bxs-star "></i>
+                         </div>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                         <h6>$15.5</h6>
+                     </div>
+                 </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                 <div class="card">
+                     <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
+                     </div>
+                     <img src="../Annie's Cake Place/images/c7.png" alt="">
+                     <div class="card-body">
+                         <h3>Fruit Cake</h3>
+                         <div class="star">
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star "></i>
+                         </div>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                         <h6>$200.10</h6>
+                     </div>
+                 </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                 <div class="card">
+                     <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
+                     </div>
+                     <img src="../Annie's Cake Place/images/c8.png" alt="">
+                     <div class="card-body">
+                         <h3>Choco Cake</h3>
+                         <div class="star">
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star checked"></i>
+                           <i class="bx bxs-star checked"></i>
+                         </div>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                         <h6>$30.20</h6>
                      </div>
                  </div>
                 </div>
@@ -196,33 +322,89 @@
             <div class="row" style="margin-top: 50px;">
                 <div class="col-md-3 py-3 py-md-0">
                     <div class="card">
-                        <img src="images/Vihanga.jpg" alt="">
+                        <div class="overlay">
+                            <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
+                        </div>
+                        <img src="../Annie's Cake Place/images/c9.png" alt="">
                         <div class="card-body">
                             <h3>Birthday cake</h3>
+                            <div class="star">
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <h6>$500.10</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 py-3 py-md-0">
                     <div class="card">
-                        <img src="images/FrGiyom.jpg" alt="">
+                        <div class="overlay">
+                            <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
+                        </div>
+                        <img src="../Annie's Cake Place/images/c10.png" alt="">
                         <div class="card-body">
-                            <h3>Birthday Cake</h3>
+                            <h3>Bir Cup cake</h3>
+                            <div class="star">
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <h6>300.20</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 py-3 py-md-0">
                     <div class="card">
-                        <img src="images/FrozenElsa.jpg" alt="">
+                        <div class="overlay">
+                            <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
+                        </div>
+                        <img src="../Annie's Cake Place/images/c11.png" alt="">
                         <div class="card-body">
                             <h3>Birthday cake</h3>
+                            <div class="star">
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <h6>$100.50</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 py-3 py-md-0">
                     <div class="card">
-                        <img src="images/Cupcake.png" alt="">
+                        <div class="overlay">
+                            <button type="button" class="btn btn-secondary" title="Quick View"><i><img src="../Annie's Cake Place/images/views.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img src="../Annie's Cake Place/images/heart.png" alt="" width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src="../Annie's Cake Place/images/add.png" alt="" width="30px"></i></button>
+                        </div>
+                        <img src="../Annie's Cake Place/images/c12.png" alt="">
                         <div class="card-body">
                             <h3>Cup cake</h3>
+                            <div class="star">
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                                <i class="bx bxs-star checked"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <h6>$50.10 <span><button>Add Cart</button></span></h6>
                         </div>
                     </div>
                 </div>
@@ -230,7 +412,7 @@
         </div>
       </section>
 
-      <section id="gallary"    data-aos="fade-up"
+      <section id="gallery"    data-aos="fade-up"
       data-aos-duration="1500">
         <div class="container">
             <h1 id="gallery">OUR GALLARY</h1>
@@ -238,25 +420,25 @@
                 <div class="col-md-4 py-3 py-md-0">
                     <div class="card">
                         <div class="overlay">
-                            <h3 class="text-center">Birthday Cake</h3>
+                            <h3 class="text-center">Donuts</h3>
                         </div>
-                        <img src="images/FrGiyom2.jpg" alt="">
+                        <img src="../Annie's Cake Place/images/o1.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 py-3 py-md-0">
                     <div class="card">
                         <div class="overlay">
-                            <h3 class="text-center">SimpleBlueFloralBirthdayCake</h3>
+                            <h3 class="text-center">Ice Cream</h3>
                         </div>
-                        <img src="images/SimpleBlueFloralBirthdayCake.jpg" alt="">
+                        <img src="../Annie's Cake Place/images/o2.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 py-3 py-md-0">
                     <div class="card">
                         <div class="overlay">
-                            <h3 class="text-center">VineCake</h3>
+                            <h3 class="text-center">Cup Cake</h3>
                         </div>
-                         <img src="images/Winecake.jpg" alt="">
+                        <img src="../Annie's Cake Place/images/o3.png" alt="">
                     </div>
                 </div>
             </div>
@@ -267,98 +449,100 @@
                 <div class="col-md-4 py-3 py-md-0">
                     <div class="card">
                         <div class="overlay">
-                            <h3 class="text-center">WeddingCake</h3>
+                            <h3 class="text-center">Delicious Cake</h3>
                         </div>
-                        <img src="images/RusticthemedWeddingCake.jpg" alt="">
+                        <img src="../Annie's Cake Place/images/o4.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 py-3 py-md-0">
                     <div class="card">
                         <div class="overlay">
-                            <h3 class="text-center">SimpleBirthdayCake</h3>
+                            <h3 class="text-center">Chocolate Cake</h3>
                         </div>
-                        <img src="images/SimpleBirthdayCake.jpg" alt="">
+                        <img src="../Annie's Cake Place/images/o5.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 py-3 py-md-0">
                     <div class="card">
                         <div class="overlay">
-                            <h3 class="text-center">FairyBirthdayCake</h3>
+                            <h3 class="text-center">Slice Cake</h3>
                         </div>
-                        <img src="images/FairyBirthdayCake.jpg" alt="">
+                        <img src="../Annie's Cake Place/images/o6.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
       </section>
     
-     <!-- Site footer -->
-     <section id="about"    data-aos="fade-up"
+      <div class="container" id="about"    data-aos="fade-up"
       data-aos-duration="1500">
-    <footer class="site-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              <h6>About</h6>
-              <p class="text-justify">Annie's Cake Place<i>is a renowned bakery that has made a name for </i> itself in the world of delicious treats.Located in the heart of the city, it is a go-to destination for anyone with a sweet tooth.The bakery is known for its mouth-watering cakes, cupcakes, cookies, and other baked goods that are made with only the finest ingredients. </p>
+        <h1 id="about">ABOUT US</h1>
+        <div class="row">
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="../Annie's Cake Place/images/about.png" alt="">
+                </div>
             </div>
-  
-            <div class="col-xs-6 col-md-3">
-              <h6>Quick Links</h6>
-              <ul class="footer-links">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#gallary">Gallery</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-              </ul>
+            <div class="col-md-6 py-3 py-md-0">
+                    <p>Custom made cakes for all<br> Occasions , Weddings , Engagements , <br>Birthdays , Christenings , Farewells</p>                
             </div>
-          </div>
-          <hr>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-sm-6 col-xs-12">
-              <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
-           <a href="#">Annie's Cake Place</a>.
-              </p>
-            </div>
-  
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <ul class="social-icons">
-                <li><a class="facebook" href="https://www.facebook.com/anniescakeplace"><i class="fa-brands fa-facebook"></i></a></li>
-                <li>
-                    <a class="whatsapp"
-                        href=" https://wa.me/+94773454570" target="_blank" class="whatsapp_float">
-                        <i class='bx bxl-whatsapp'></i></a>
-                </li>
-                    <li>
-                        <a class="map"
-                            href="https://www.google.com/maps/place/Annie's+cake+place/@7.2115062,79.8438315,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae2ef405f8c6c9b:0x122a5f8f5dae0fb6!8m2!3d7.2115062!4d79.8460202!16s%2Fg%2F11jg60scxf">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        </a>
-                    </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        </footer>
-</div>
-<div class="contact" id="whatsapp">
-<a href=" https://wa.me/+94773454570" target="_blank" class="whatsapp_float"><i
+      </div>    
+    </footer>    
+
+<a href="https:/wa.me/+94773454570" target="_blank" class="whatsapp_float"><i
         class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
 
 
 
-
-
+        <div class="gallary">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+        </script>
+              <footer class="footer-distributed">
+              
+                          <div class="footer-left">
+              
+                              <h3>Annie's &nbsp<span>Cake Place</span></h3>
+              
+                              <p class="footer-links">
+                                <a class="nav-link" href="#home">Home</a>
+                                  
+                                <a class="nav-link" href="#gallery">Gallery</a>
+                              
+                                <a class="nav-link" href="#about">About</a>
+                              
+                              </p>
+              
+                              <p class="footer-company-name">Annie's Cake Place © 2008</p>
+                          </div>
+              
+                          <div class="footer-center">
+              
+                              <div>
+                                  <a href="https://goo.gl/maps/WZBS82ShSXTx9wWv9"><i class="fa fa-map-marker"></i></a>
+                                  <p><span>29/9</span> Rukmani Devi Road , Negombo</p>
+                              </div>
+              
+                              <div>
+                                  <i class="fa fa-phone"></i>
+                                  <p>+94 77 345 4570</p>
+                              </div>
+              
+                              <div>
+                                  <i class="fa fa-envelope"></i>
+                                  <p><a href="mailto:gmanishafernando@gmail.com">gmanishafernando@gmail.com</a></p>
+                              </div>
+                          </div>
+
+                              <div class="footer-icons">
+                                  <a href="https://www.facebook.com/anniescakeplace?mibextid=LQQJ4d"><i class="fa fa-facebook"></i></a>
+                                  <a href="https:/wa.me/+94773454570"><i class="fa fa-whatsapp"></i></a>
+                              </div>
+              
+                          </div>
+              
+                      </footer>
 </body>
 </html>
