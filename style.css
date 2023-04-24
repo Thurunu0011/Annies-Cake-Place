@@ -18,7 +18,7 @@
     background-color: #0000;
     padding-left: 60px;
     font-weight: bold;
-    margin-top: 0
+    margin-top: 30px;
 }
 #logo{
     font-size: 23px;
@@ -150,6 +150,9 @@ nav ul li a{
     height: 38px;
     background-color: #573818;
     color: white;
+}
+.content.aos-init.aos-animate {
+    display: none;
 }
 @media screen and (max-width:800px){
     .content h3{
